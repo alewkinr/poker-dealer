@@ -1,0 +1,12 @@
+[project]
+name = "poker-dealer"
+version = "0.1.0"
+description = "This is a service that collects, normalizes, and processes poker planning data from multiple sources, enabling seamless integration with agile workflows. It aggregates estimation inputs, standardizes formats, and provides actionable insights for sprint planning and decision-making."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests>=2.32.3",
+]
+
+[project.scripts]
+dev = "main:main"
